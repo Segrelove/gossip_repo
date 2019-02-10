@@ -1,0 +1,8 @@
+<h1>Bienvenu dans les gossips</h1>
+
+<% @gossips.each do |gossip| %>
+<ul>
+<li><%= gossip.title %></li>
+<li><%= gossip.content %></li>
+</ul>
+<% end %>
