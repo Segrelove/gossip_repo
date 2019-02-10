@@ -1,24 +1,22 @@
-# README
+# A small template made to learn CRUD with THP !
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This template contains a PostGreSQL database with only one table : gossips, with two attributes :
+- title
+- content
 
-Things you may want to cover:
+The gems are :
+- table_print
+- mini-racer
 
-* Ruby version
+There is only one controller with BAD ROUTES (non-conventional) for example with the content of the course !
+- gossips_controller.rb
 
-* System dependencies
+You only have to :
+- bundle install
+- rails db:create
+- rails db:migrate
+- rails db:seed
 
-* Configuration
+And then you follow the steps ;)
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Enjoy !
